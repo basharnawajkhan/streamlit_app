@@ -80,4 +80,4 @@ Model.fit(x_train, y_train)
 Prediction = Model.predict(result)
 
 st.subheader("Predicted Result")
-st.write("loyal Customer" if Prediction[0]== 0 else "Churn Customer")
+st.write(Prediction)
